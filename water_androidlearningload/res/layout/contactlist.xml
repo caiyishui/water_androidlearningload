@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="#ffffff" >
+<!-- 左边一个图片 -->
+	<ImageView 
+	    android:id="@+id/face"
+	    android:layout_width="100dp"
+	    android:layout_height="100dp"
+	    android:layout_gravity="center_vertical"
+	    />
+	
+	<!-- 紧接着一个线性容器，上下两个文本框 -->
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_gravity="center_vertical"
+	    android:layout_marginLeft="20dp"
+	    >
+	    <TextView 
+	        android:id="@+id/name"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        />
+	    <TextView 
+	        android:id="@+id/number"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dp"
+	        />
+	</LinearLayout>
+</LinearLayout>

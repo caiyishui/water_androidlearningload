@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myandroid="http://schemas.android.com/apk/res/com.water.learning"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.water.learning.myview.MyView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+		android:background="#ffffff" 
+		myandroid:price_u="850"
+		myandroid:price_d="500"
+        />
+
+</LinearLayout>

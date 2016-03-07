@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mylog">打印日志，功能</string>
+    <string name="app_name">水哥去哪了</string>
+   <string name="call">我要报警110</string>
+    <string name="sendmessage">我要发短信</string>
+    <string name="phonesister">我要给妹子拍照啦</string>
+    <string name="bt1">按钮</string>
+     <color name="write">#ffffff</color>
+      <color name="wr">#000000</color>
+      <string name="dialog">普通对话框</string>
+    <string name="progressdialog">进度条对话框</string>
+	<string name="customdialog">自定义对话框</string>
+	<string name="timedialog">时间设置对话框</string>
+	<string name="popupwindow">窗口弹出框</string>
+	<string name="uninstall">卸载</string>
+	<string name="launch">启动</string>
+	<string name="share">分享</string>
+	<color name="blue">#ff00ff</color>
+	<string name="jump">跳转</string>
+	 <string name="start">开始</string>
+     <string name="ts">吐司</string>
+      <string name="stop">停止</string>
+    
+</resources>
